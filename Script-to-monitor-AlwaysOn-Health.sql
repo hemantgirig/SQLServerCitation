@@ -1,3 +1,8 @@
+/* 
+-- Created By: Hemantgiri S. Goswami
+-- Date: 29th April 2013
+
+*/
 -- List AG Replica Details 
 select n.group_name,n.replica_server_name,n.node_name,rs.role_desc 
 from sys.dm_hadr_availability_replica_cluster_nodes n 
