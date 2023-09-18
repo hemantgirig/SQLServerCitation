@@ -1,10 +1,10 @@
 /* 
--- Created By: Hemantgiri S. Goswami
+-- Created By: Hemantgiri S. Goswami | https://sqlservercitation.com
 -- Date: 29th April 2011
 -- Modified on 2nd December 2018
 -- Version: 1.0
 -- Modified by: Brent Ozar for weirdo named databases
--- Weirdo filename is taken care as well
+-- Weirdo filename is taken care of as well
 */
 
 -- Creating the table to capture temporary data
