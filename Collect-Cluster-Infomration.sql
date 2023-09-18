@@ -2,7 +2,7 @@
 IP address portion using : http://www.sqlservercentral.com/Forums/Topic150196-8-1.aspx 
 REMOVE sp_configure parameters if you are executing this script on SQL Server 2000 
  
-Created By : Hemantgiri S. Goswami | http://www.sql-server-citation.com 
+Created By : Hemantgiri S. Goswami | http://www.sqlservercitation.com 
 Date  : 24th March 2013 
 Version  : 1.0 
  
