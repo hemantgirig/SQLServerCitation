@@ -1,6 +1,6 @@
 --================================================================================================================== 
 -- Script Originally Written By: Dan Guzman | http://www.dbdelta.com/  
--- Modified by: Hemantgiri S. Goswami | http://www.sql-server-citation.com/ | Twitter: @Ghemant 
+-- Modified by: Hemantgiri S. Goswami | http://www.sql-server-citation.com/ | Twitter: @hemantgirig
  
 -- Reference: http://social.msdn.microsoft.com/Forums/en/transactsql/thread/226bbffc-2cfa-4fa8-8873-48dec6b5f17f 
 -- VLF Count script is taken from :  http://gallery.technet.microsoft.com/scriptcenter/SQL-Script-to-list-VLF-e6315249 
