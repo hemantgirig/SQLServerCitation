@@ -1,6 +1,6 @@
 --==================================================================================
 -- Author - Hemantgiri S. Goswami
--- http://www.sql-server-citation.com 
+-- http://www.sqlservercitation.com 
 -- Created: Somewhere in 2005
 -- This Script will list all the database, backup file name, type of backup, and 
 -- size of backup file that has been backed up today except Read-Only, and Mirrored. 
