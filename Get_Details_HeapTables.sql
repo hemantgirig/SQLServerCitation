@@ -4,7 +4,6 @@
 --This script will return table size,# of records,total space, 
 --used space and free space for heap tables for given database
 --**************************************************************/
-USE [DynamicMaskingDemo];
 SELECT 
 db_name() AS DBName,
 SCHEMA_NAME(s.schema_id) AS SchemaName,
@@ -23,4 +22,8 @@ WHERE OBJECTPROPERTY(s.object_id,'TableHasPrimaryKey') = 0
 and a.total_pages > 0
 group by s.schema_id,s.name,p.rows
 ORDER BY SchemaName, TableName
+GO
+select * from #HeapTables
+GO
+drop table #HeapTables
 GO
