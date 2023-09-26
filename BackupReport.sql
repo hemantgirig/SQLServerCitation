@@ -1,11 +1,17 @@
---==================================================================================
--- Author - Hemantgiri S. Goswami
--- http://www.sql-server-citation.com 
--- Created: Somewhere in 2005
--- This Script will list all the database, backup file name, type of backup, and 
--- size of backup file that has been backed up today except Read-Only, and Mirrored. 
--- Feel free to modify the script per need.
---===========================================================================
+/* 
+Author - Hemantgiri S. Goswami
+Site: https://sqlservercitation.com 
+
+Twitter: https://twitter.com/hemantgirig
+
+Object: TSQL Script
+Created: Somewhere in 2005
+Description: This Script will list all the database, backup file name, type of backup, and 
+size of backup file that has been backed up today except Read-Only, and Mirrored. 
+Feel free to modify the script per need.
+
+
+*/
 select distinct 
 bs.database_name AS "DB Name",
 bmf.physical_device_name AS "Backup File Name",

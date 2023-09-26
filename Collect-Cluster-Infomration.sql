@@ -1,10 +1,20 @@
 /* 
+Author - Hemantgiri S. Goswami
+Site: https://sqlservercitation.com 
+Twitter: https://twitter.com/hemantgirig
+Object: T-SQL Script
+
+Script Date: 2nd March 2020
+Description: This is a Demo Script to understand why to Avoid using Identity column and in which use cases.
+This script is part of my blog series and presentation Common Mistakes in SQL Server.
+
+Credits:
 IP address portion using : http://www.sqlservercentral.com/Forums/Topic150196-8-1.aspx 
 REMOVE sp_configure parameters if you are executing this script on SQL Server 2000 
  
-Created By : Hemantgiri S. Goswami | http://www.sql-server-citation.com 
+
 Date  : 24th March 2013 
-Version  : 1.0 
+
  
 Tested ON: 
 Windows Server  >> 2003, 2008, 2008 R2  

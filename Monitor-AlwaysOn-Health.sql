@@ -1,5 +1,11 @@
--- Created By: Hemantgiri S. Goswami
--- Date: 29th April 2010
+/*
+Author - Hemantgiri S. Goswami
+Site: https://sqlservercitation.com 
+
+Twitter: https://twitter.com/hemantgirig
+
+Date: 29th April 2010
+*/
 
 SELECT 
 @@SERVERNAME as ServerName 

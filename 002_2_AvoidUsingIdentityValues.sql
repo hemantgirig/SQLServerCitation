@@ -1,5 +1,14 @@
--- An example of auto incremental value for primary key
+/*
+Author - Hemantgiri S. Goswami
+Site: https://sqlservercitation.com 
+Twitter: https://twitter.com/hemantgirig
+Object: T-SQL Script
 
+Script Date: 2nd March 2020
+Description: This is a Demo Script to understand why to Avoid using Identity column and in which use cases.
+This script is part of my blog series and presentation Common Mistakes in SQL Server.
+An example of auto incremental value for primary key
+*/
 EXECUTE 
 (
     'CREATE DATABASE dIdentityDB
