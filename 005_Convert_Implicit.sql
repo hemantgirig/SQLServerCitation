@@ -62,9 +62,11 @@ Nums.n,
 DATEADD(HOUR, Nums.n, '1/1/1900')
 FROM    Nums
 
--- Since we need to see if implicit conversion is costly or not, let's set option to check CPU time
-set statistics time,IO on
--- Let's run Query 2 that uses the same data type to compare a value
+-- Since we need to see if implicit conversion is costly or not, let's set the option to check CPU time
+set statistics time, IO on
+
+-- Please press Ctrl+M button to enable Actuable Execution Plan
+-- Let's run Query 2 which uses the same data type to compare a value
 DECLARE @param1 VARCHAR(30);
 SET @param1 = '4/01/1900 5:00:00';
 SELECT  ct.DateColumn
@@ -72,7 +74,7 @@ FROM    dbo.ConvertTest AS ct
 WHERE   ct.DateColumn = @param1
 
 
--- Let's run Query 1 that uses the different data type to compare a value
+-- Let's run Query 1 which uses the different data types to compare a value
 DECLARE @param DATETIME;
 SET @param = '4/01/1900 5:00:00';
 SELECT  ct.DateColumn
