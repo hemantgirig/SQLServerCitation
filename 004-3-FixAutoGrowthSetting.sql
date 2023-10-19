@@ -3,6 +3,7 @@
 -- Date: 29th April 2011
 -- Updated: 20th November 2018
 -- Version: 1.1
+-- Updated by Brent Ozar to take care weird database names; he added square braces
 
 */
 
@@ -60,6 +61,7 @@ FETCH NEXT FROM db_cursor INTO @dbid,@name,@vfilename,@vgrowthoption
 WHILE @@FETCH_STATUS = 0
 BEGIN
 	PRINT 'Changing AutoGrowth option for database:- '+ UPPER(@name)
+	-- This line is edited by Brent Ozar to take care weird database names; he added square braces
 	SET @Query  = 'ALTER DATABASE 9'+ @name +'] MODIFY FILE (NAME = ['+@vFileName+'],FILEGROWTH = 500MB)'
 	EXECUTE(@Query)
 
