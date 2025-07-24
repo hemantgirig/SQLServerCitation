@@ -1,0 +1,6 @@
+https://sqlservercitation.com/common-mistakes-in-sql-server-part-1/
+https://sqlservercitation.com/common-mistakes-in-sql-server-part-2/
+https://sqlservercitation.com/common-mistakes-in-sql-server-part-3/
+https://sqlservercitation.com/common-mistakes-in-sql-server-part-4/
+https://sqlservercitation.com/common-mistakes-in-sql-server-part-5/
+https://sqlservercitation.com/common-mistakes-in-sql-server-part-6/
